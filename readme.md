@@ -11,5 +11,7 @@
 We add `.playing` class to `<div data-key="#event.key" class="key">` when key is pressed.
 
 ```
--[x] Press `A` for 👏 Clapping
+| Key | Sound |
+|-----|-------|
+| A   | Clap  |
 ```
