@@ -8,10 +8,21 @@
 
 ---
 
-We add `.playing` class to `<div data-key="#event.key" class="key">` when key is pressed.
+> CheckOut [Here](https://robinsingh1912.github.io/Drum-kit-js/ "website")
 
-| Key | Sound |
-| --- | ----- |
-| A   | Clap  |
+We add `.playing` class to `<div data-key="#event.key" class="key">` when key is pressed. And add `transition` to `div`.
 
-- [x] clap👏
+`remove transition` when `transitionend` event occurs.
+
+| Key | Sound   |
+|-----|---------|
+| a   | Clap 👏 |
+| s   | Hithat  |
+| d   | Kick    |
+| f   | Openhat |
+| g   | Boom    |
+| h   | Ride    |
+| j   | Snake   |
+| k   | Tom     |
+| l   | Tink    |
+
