@@ -10,8 +10,8 @@
 
 We add `.playing` class to `<div data-key="#event.key" class="key">` when key is pressed.
 
-```
 | Key | Sound |
-|-----|-------|
+| --- | ----- |
 | A   | Clap  |
-```
+
+- [x] clap👏
