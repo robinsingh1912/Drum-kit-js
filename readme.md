@@ -10,7 +10,7 @@
 
 > CheckOut [Here](https://robinsingh1912.github.io/Drum-kit-js/ "website")
 
-![image](https://robinsingh1912.github.io/Drum-kit-js/images/JS-Drum-Kit.png)
+![image](https://raw.githubusercontent.com/robinsingh1912/Drum-kit-js/master/images/JS-Drum-Kit.png)
 
 We add `.playing` class to `<div data-key="#event.key" class="key">` when key is pressed. And add `transition` to `div`.
 
