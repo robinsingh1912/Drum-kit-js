@@ -15,6 +15,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  overflow: hidden;
 }
 
 .keys {
@@ -60,8 +61,30 @@ kbd {
 
 p {
   color: white;
+  font-size: 2rem;
 }
 
 #title {
-  float: right;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 75px;
+  padding: 10px;
+}
+ {
 }
