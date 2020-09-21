@@ -30,11 +30,11 @@ html {
   border: 0.4rem solid white;
   border-radius: 0.5rem;
   box-shadow: inset 0 0 10px #fff;
-  margin: 1rem;
+  margin: 0.5rem;
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
   transition: all 0.07s ease;
-  width: 10rem;
+  width: 9rem;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.4);
@@ -66,8 +66,8 @@ p {
 
 #title {
   position: fixed;
-  bottom: 25px;
-  right: 25px;
+  bottom: 0px;
+  right: 15px;
 }
 
 .noselect {
@@ -83,8 +83,10 @@ p {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 0fr);
-  grid-gap: 75px;
   padding: 10px;
 }
- {
+@media (min-width: 768px) {
+  .grid-container {
+    grid-gap: 75px;
+  }
 }
